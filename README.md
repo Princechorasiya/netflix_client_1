@@ -1,3 +1,8 @@
+##the site is live at 
+https://netflix-client-prince.onrender.com
+# you can login and checkout the site with ur email.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
