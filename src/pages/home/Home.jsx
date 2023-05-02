@@ -13,7 +13,7 @@ export default function Home({ type }) {
 		const getRandomList = async () => {
 			try {
 				const res = await axios.get(
-					`list${type ? "?type=" + type : ""}${genre ? "&genre=" + genre : ""}`,
+					`/api/list${type ? "?type=" + type : ""}${genre ? "&genre=" + genre : ""}`,
 					{
 						headers: {
 							token:

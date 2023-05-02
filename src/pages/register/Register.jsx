@@ -24,7 +24,7 @@ const Register = () => {
 		setUsername(usernameRef.current.value);
 		try {
 			
-			await axios.post("/auth/register", { email, password, username });
+			await axios.post("/api/auth/register", { email, password, username });
 			navigate("/login");
 		} catch (err) {
 			console.log(err);
